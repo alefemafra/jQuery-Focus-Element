@@ -1,6 +1,6 @@
 # jQuery Focus Element Beta
 
-It's in your first version, so I'll leave it automated.
+This is the first version, so I'll leave it automated.
 
 Jquery Plugin to focus on desired elements leaving the remaining with a black background or the color you want.
 
