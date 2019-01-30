@@ -16,36 +16,36 @@
     var methods = {
         show: function(variavel) {
             $(this).on('click', function() {
-                if (!$('.focus-effect').hasClass('ativo')) {
-                    $('.objeto.ativo').removeClass('objeto ativo');
-                    $('.focus-effect').addClass('ativo');
-                    $(variavel).addClass('objeto ativo');
+                if (!$('.focus-effect').hasClass('active')) {
+                    $('.object.active').removeClass('object active');
+                    $('.focus-effect').addClass('active');
+                    $(variavel).addClass('object active');
                 }
             });
         },
         showManual: function(variavel) {
-            if (!$('.focus-effect').hasClass('ativo')) {
-                $('.objeto.ativo').removeClass('objeto ativo');
-                $('.focus-effect').addClass('ativo');
-                $(variavel).addClass('objeto ativo');
+            if (!$('.focus-effect').hasClass('active')) {
+                $('.object.active').removeClass('object active');
+                $('.focus-effect').addClass('active');
+                $(variavel).addClass('object active');
             }
         },
         hide: function(variavel) {
             $(this).on('click', function() {
-                if ($('.focus-effect').hasClass('ativo')) {
-                    $('.focus-effect').removeClass('ativo');
-                    $(variavel).removeClass('objeto ativo');
+                if ($('.focus-effect').hasClass('active')) {
+                    $('.focus-effect').removeClass('active');
+                    $(variavel).removeClass('object active');
                 }
             });
         },
         hideManual: function(variavel) {
-            if ($('.focus-effect').hasClass('ativo')) {
-                $('.focus-effect').removeClass('ativo');
-                $(variavel).removeClass('objeto ativo');
+            if ($('.focus-effect').hasClass('active')) {
+                $('.focus-effect').removeClass('active');
+                $(variavel).removeClass('object active');
             }
         },
         hideBackground: function() {
-            $('.focus-effect').removeClass('ativo');
+            $('.focus-effect').removeClass('active');
         }
     };
 
