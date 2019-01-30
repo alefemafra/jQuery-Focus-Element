@@ -45,7 +45,7 @@ Jquery Plugin to focus on desired elements leaving the remaining with a black ba
 5 - in your JS:
 ```javascript
     $(document).on('click', '.focus-effect.ativo', function() {
-        $(document).backgrounds('hideBackground');
+        $(document).focus('hideBackground');
     });
 ```
 
