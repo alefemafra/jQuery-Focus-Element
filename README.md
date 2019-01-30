@@ -6,6 +6,8 @@ Jquery Plugin to focus on desired elements leaving the remaining with a black ba
 
 #### As still in beta step 4 is extremely important
 
+![](gif-github.gif)
+
 # Installation
 
 1 - download the file and place it where you want
