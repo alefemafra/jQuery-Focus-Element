@@ -50,28 +50,28 @@ Jquery Plugin to focus on desired elements leaving the remaining with a black ba
 ```
 
 
-6 - have 5 methods: 
+6 - There is 5 methods: 
 
 6.1 - show: it does the click function on the selected object. ex:
 ```javascript
-  $('.field.search').backgrounds('show', '.block-search');
+  $('.field.search').focus('show', '.block-search');
 ```
-6.2 - showManual: You have to do the function you want and there you have it inside. ex:
+6.2 - showManual: You have to do the function you want and than you have it inside. ex:
 ```javascript
   $('input').on('click' function(){
-    $(document).backgrounds('showManual', '.block-search');
+    $(document).focus('showManual', '.block-search');
   }) 
 ```
 
 6.3 - hide: do the click function and remove the background. ex:
 ```javascript
-  $('.field.search').backgrounds('hide', '.block-search');
+  $('.field.search').focus('hide', '.block-search');
 ```
 
 6.4 - hideManual: For manual removal of the selected background and object. ex:
 ```javascript
   $('input').on('click' function(){
-    $(document).backgrounds('hideManual', '.block-search');
+    $(document).focus('hideManual', '.block-search');
   })
 ```
   
