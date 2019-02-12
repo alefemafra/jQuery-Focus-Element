@@ -1,6 +1,14 @@
 /*
+    ___________                               
+    \_   _____/  ____    ____   __ __   ______
+    |    __)   /  _ \ _/ ___\ |  |  \ /  ___/
+    |     \   (  <_> )\  \___ |  |  / \___ \ 
+    \___  /    \____/  \___  >|____/ /____  >
+        \/                 \/             \/ 
+    
     Version: 1.0.0
     Author: Alefe Mafra
+    GitHub: https://github.com/alefemafra/jQuery-Focus-Element
  */
 (function(factory) {
     'use strict';
